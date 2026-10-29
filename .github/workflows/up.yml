@@ -1,9 +1,8 @@
 name: Test
 on:
   pull_request:
-    branches: [main]
   push:
-    branches: [main]
+    branches: [main, trunk]
 permissions:
   contents: read
 jobs:
